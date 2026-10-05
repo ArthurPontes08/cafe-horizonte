@@ -22,6 +22,7 @@ body {
 
 .marca {
   max-width: var(--largura-conteudo);
+  padding: var(--espaco-lg) var(--padding-pagina) var(--espaco-sm);
   margin-left: auto;
   margin-right: auto;
   font-size: var(--tamanho-titulo);
