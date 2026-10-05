@@ -1,3 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  font-family: var(--fonte-base);
+  font-size: var(--tamanho-corpo);
+  line-height: var(--altura-linha);
   background: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+.pagina {
+  max-width: var(--largura-conteudo);
+  padding: var(--espaco-lg) var(--padding-pagina);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marca {
+  max-width: var(--largura-conteudo);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: var(--tamanho-titulo);
+  font-weight: bold;
+  color: var(--cor-marca);
+}
+
+h1 {
+  font-size: var(--tamanho-titulo);
+  color: var(--cor-marca);
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: var(--tamanho-subtitulo);
+  color: var(--cor-marca);
+}
+
+.nav {
+  max-width: var(--largura-conteudo);
+  padding: 0 var(--padding-pagina);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav a {
+  display: block;
+  min-height: var(--toque);
+  padding: var(--espaco-sm) var(--espaco-md);
+  border-bottom: 1px solid var(--cor-borda);
+  color: var(--cor-marca);
+  text-decoration: none;
+}
+
+.nav {
+  max-width: var(--largura-conteudo);
+  padding: 0 var(--padding-pagina);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  max-width: var(--largura-conteudo);
+  padding: 0 var(--padding-pagina);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav a {
+  display: block;
+  min-height: var(--toque);
+  padding: var(--espaco-sm) var(--espaco-md);
+  border-bottom: 1px solid var(--cor-borda);
+  color: var(--cor-marca);
+  text-decoration: none;
+}
+
+.cta {
+  display: inline-block;
+  min-height: var(--toque);
+  padding: var(--espaco-sm) var(--espaco-md);
+  background: var(--cor-cta);
+  color: var(--cor-cta-texto);
+  text-decoration: none;
+  border-radius: var(--raio);
+  font-size: var(--tamanho-corpo);
+}
+
+.rodape {
+  max-width: var(--largura-conteudo);
+  padding: var(--espaco-xl) var(--padding-pagina);
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid var(--cor-borda);
 }
